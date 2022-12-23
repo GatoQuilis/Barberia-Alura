@@ -256,6 +256,7 @@ td, th {
 
     nav {
         position: static;
+        /* top: 230px; */
     }
 
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
@@ -264,5 +265,39 @@ td, th {
 
     .lista-diferenciales, .imagen-diferenciales {
         width: 100%;
+    }
+
+    .productos {
+        width: 2.50;
+    }
+
+    .productos li {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
+        width: auto;
+    }
+
+    .lista-diferenciales, .imagen-diferenciales {
+        width: 100%;
+    }
+
+    .productos {
+        width: 1.22;
+    }
+
+    .productos li {
+        display: block;
     }
 }
